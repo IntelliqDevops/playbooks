@@ -17,7 +17,7 @@
         state: restarted
     - name: Check apache response on server1
       uri:
-        url: http://172.31.17.5
+        url: http://172.31.24.69
         status_code: 200
     - name: Check apache response on server2
       uri:
